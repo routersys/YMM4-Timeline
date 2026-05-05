@@ -1,3 +1,5 @@
+using YukkuriMovieMaker.Plugin;
+
 namespace Timeline
 {
     internal class TimelineToolPlugin : IToolPlugin
