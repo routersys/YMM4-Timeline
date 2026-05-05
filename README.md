@@ -8,6 +8,8 @@
  
 YukkuriMovieMaker4（YMM4）上で動作する、**現在開いているタイムラインをツールパネルとして複製表示するプラグイン**です。
 YMM4 標準の `TimelineView` をそのままツールパネルに埋め込んで描画するため、異なるレイヤーやトラックを同時に参照しながら編集作業を進めることができます。
+
+![Image](https://github.com/routersys/YMM4-Timeline/blob/main/docs/Timeline.png)
  
 ---
  
