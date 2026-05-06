@@ -10,6 +10,6 @@ namespace Timeline
 
         public string Name => Texts.TimelineToolName;
 
-        public bool AllowMultipleInstances => false;
+        public bool AllowMultipleInstances => true;
     }
 }

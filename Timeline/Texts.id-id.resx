@@ -60,4 +60,5 @@
   </resheader>
 <data name="CurrentCulture" xml:space="preserve"><value>id-id</value></data>
 <data name="TimelineToolName" xml:space="preserve"><value>Timeline</value></data>
+<data name="AddTimeline" xml:space="preserve"><value>Tambahkan</value></data>
 </root>

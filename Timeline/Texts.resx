@@ -60,4 +60,5 @@
   </resheader>
 <data name="CurrentCulture" xml:space="preserve"><value>ja-jp</value></data>
 <data name="TimelineToolName" xml:space="preserve"><value>タイムライン</value></data>
+<data name="AddTimeline" xml:space="preserve"><value>追加</value></data>
 </root>

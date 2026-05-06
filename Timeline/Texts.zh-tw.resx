@@ -60,4 +60,5 @@
   </resheader>
 <data name="CurrentCulture" xml:space="preserve"><value>zh-tw</value></data>
 <data name="TimelineToolName" xml:space="preserve"><value>時間線</value></data>
+<data name="AddTimeline" xml:space="preserve"><value>新增</value></data>
 </root>

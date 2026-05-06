@@ -8,7 +8,31 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              d:DataContext="{d:DesignInstance Type=local:TimelineToolViewModel}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </UserControl.Resources>
     <Grid>
         <views:TimelineView DataContext="{Binding TimelineViewModel}" />
+        <Grid Background="#80000000" Visibility="{Binding IsAddOverlayVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Style.Triggers>
+                        <Trigger Property="Visibility" Value="Visible">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.15" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Grid.InputBindings>
+                <MouseBinding MouseAction="LeftClick" Command="{Binding HideAddOverlayCommand}" />
+            </Grid.InputBindings>
+            <Button Content="{Binding Source={x:Static local:Texts.AddTimeline}}" Command="{Binding AddTimelineCommand}" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="32,8" FontSize="16" />
+        </Grid>
     </Grid>
 </UserControl>

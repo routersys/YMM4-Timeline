@@ -60,4 +60,5 @@
   </resheader>
 <data name="CurrentCulture" xml:space="preserve"><value>es-es</value></data>
 <data name="TimelineToolName" xml:space="preserve"><value>Línea de tiempo</value></data>
+<data name="AddTimeline" xml:space="preserve"><value>Añadir</value></data>
 </root>

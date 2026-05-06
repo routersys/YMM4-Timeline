@@ -60,4 +60,5 @@
   </resheader>
 <data name="CurrentCulture" xml:space="preserve"><value>ko-kr</value></data>
 <data name="TimelineToolName" xml:space="preserve"><value>타임라인</value></data>
+<data name="AddTimeline" xml:space="preserve"><value>추가</value></data>
 </root>

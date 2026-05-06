@@ -60,4 +60,5 @@
   </resheader>
 <data name="CurrentCulture" xml:space="preserve"><value>ar-sa</value></data>
 <data name="TimelineToolName" xml:space="preserve"><value>الجدول الزمني</value></data>
+<data name="AddTimeline" xml:space="preserve"><value>إضافة</value></data>
 </root>
